@@ -1,4 +1,5 @@
 import { PostCard } from "../PostCard";
+import "./styles.css";
 
 export const Posts = ({ posts }) => (
   <div className="posts">
@@ -9,9 +10,7 @@ export const Posts = ({ posts }) => (
         body={post.body}
         cover={post.cover}
         id={post.id}
-      >
-        <h1>oi</h1>
-      </PostCard>
+      />
     ))}
   </div>
 );

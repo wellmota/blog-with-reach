@@ -1,0 +1,13 @@
+.button {
+  width: 100%;
+  background-color: blue;
+  color: white;
+  padding: 8px 26px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.button:disabled {
+  background-color: #888;
+  cursos: not-allowed;
+}

@@ -1,0 +1,22 @@
+h2 {
+  text-transform: capitalize;
+}
+
+.truncate-one-line {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 100%;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #eee;
+  padding: 24px;
+}
+
+.button-container {
+  padding: 24px 0;
+  display: flex;
+}
